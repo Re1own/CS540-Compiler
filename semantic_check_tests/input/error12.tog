@@ -1,0 +1,21 @@
+let
+  var x: int
+
+  function f(x:int) :void = 
+    printint(x+20);
+    printstring("Done")
+  end
+
+  var y :int
+
+  function g(y:int): int = 
+    return y - 1
+  end
+
+  var y: string //ERROR: y duplicate defintion
+
+in
+  x := getint();
+  f(g(x + y))
+end
+//end of the program

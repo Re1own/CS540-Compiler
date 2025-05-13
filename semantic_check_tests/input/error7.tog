@@ -1,0 +1,18 @@
+let
+  function sum_less_than(n:int,x:int) : int = 
+    let
+        var i:int
+        var sum:int
+    in
+        sum := 0;
+        for i:=1 to n do
+           if (i<x)
+           then 
+              sum := sum + i
+        end;
+        return sum
+  end
+in
+   printint(sum_less_than(10, 5))
+end
+

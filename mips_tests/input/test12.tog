@@ -1,0 +1,9 @@
+let
+  function my_print(x:int): void=
+    printint(x+40);
+    printint(x-40)
+  end
+in
+  my_print(400)
+end
+

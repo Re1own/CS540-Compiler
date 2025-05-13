@@ -1,0 +1,9 @@
+let
+  function f(): void=
+    printint(1)
+  end
+in
+  printint(0);
+  f()
+end
+

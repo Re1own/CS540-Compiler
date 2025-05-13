@@ -1,0 +1,7 @@
+//a test case with variables
+let  //start
+  var x: void  //ERROR: variable cannot be void
+in  
+  x :=1 ;       
+  printint(x)  
+end //last comment!

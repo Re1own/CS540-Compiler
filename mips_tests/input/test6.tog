@@ -1,0 +1,8 @@
+let
+  var x:int
+  var y:int
+in
+  x := 5;
+  y := x*2;
+  printint(y)
+end

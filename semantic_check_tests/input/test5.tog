@@ -1,0 +1,15 @@
+let
+  var x: int    //variable 1
+  var s: string //variable 2
+
+  function foo(x:int, s:int): int = 
+    return x*s
+  end
+
+in
+  x := foo(10, 20); 
+  s := "result:";
+  printstring(s);
+  printint(x)
+end
+

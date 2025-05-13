@@ -1,0 +1,7 @@
+let
+  function dummy(): void = 
+  end
+in
+  printint(440)
+end        
+

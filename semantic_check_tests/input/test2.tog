@@ -1,0 +1,7 @@
+//a test case with variables
+let  //start
+  var x: int  //variable
+in  // done with declarations
+  x :=1 ;       //statement1
+  printint(x)  //statement2
+end //last comment!

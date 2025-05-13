@@ -1,0 +1,8 @@
+let
+  function dummy(): void = 
+    printstring("I do nothing!\n")
+  
+in
+  printint(440)
+end        
+

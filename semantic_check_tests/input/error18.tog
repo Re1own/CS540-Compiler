@@ -1,0 +1,8 @@
+let
+  function dummy(): void = 
+    printstring("I do nothing!\n")
+  end
+in
+  dummy(440) //ERROR: dummy should not take any arg
+end        
+

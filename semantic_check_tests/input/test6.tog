@@ -1,0 +1,15 @@
+let
+  var x: int
+  var y: int
+  var z: int
+
+in
+  printstring("Give me an integer: "); 
+  x := getint();
+  y := x * x;
+  z := 3 - 4 / (4 - 3);
+  z := (x + z) * y + 22 / 2;
+  printint(z);
+  printstring("this is a string with escaped \" ")
+
+end

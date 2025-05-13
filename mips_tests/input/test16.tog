@@ -1,0 +1,12 @@
+let
+  function fact(n:int) : int =
+    if (n<1) then
+        return 1
+    else
+        return n*fact(n-1)
+    end
+  end
+in
+  printint(fact(6))
+end
+

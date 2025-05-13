@@ -1,0 +1,18 @@
+let
+  var y:int
+  function abs(x:int):int =
+     let
+        var y:int
+     in
+     if (x<0)
+     then 
+       y := 0-x
+     else
+       y := x
+     end;
+     return y
+  end
+in
+  y := abs(0-5);
+  printint(y)
+end 

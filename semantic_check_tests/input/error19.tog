@@ -1,0 +1,9 @@
+let
+  function dummy(): void = 
+    printstring("I do nothing!\n")
+  end
+in
+  if (dummy()==440) //ERROR: return of dummy() is void 
+  then printint(440) end
+end        
+

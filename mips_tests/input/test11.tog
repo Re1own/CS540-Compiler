@@ -1,0 +1,13 @@
+let
+  function f1(): void=
+    printint(1)
+  end
+
+  function f2(): void=
+    f1();
+    printint(2)
+  end
+in
+  f2()
+end
+

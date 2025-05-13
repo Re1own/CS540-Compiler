@@ -1,0 +1,12 @@
+let
+  var x:int
+
+  function ten():int=
+    return 10
+  end
+
+in
+  x:= getint();
+  x:= x+ten();
+  printint(x)
+end

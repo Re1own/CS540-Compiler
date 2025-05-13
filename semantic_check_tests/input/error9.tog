@@ -1,0 +1,13 @@
+let
+  var x: int
+  var z: int
+
+in
+  x := getint();
+  y := x * x;   //ERROR: y not declared
+  z := 3 - 4 / (4 - 3);
+  z := (x + z) * y + 22 / 2; //another y: but you won't reach here
+  printint(z);
+  printstring("this is a string with escaped \" ")
+
+end

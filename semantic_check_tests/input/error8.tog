@@ -1,0 +1,14 @@
+let
+  var x: int
+  var y: int
+  var z: int
+
+in
+  print("Give me an integer: "); //ERROR: print is not defined
+  x := getint();
+  y := x * x;
+  z := 3 - 4 / (4 - 3);
+  z := (x + z) * y + 22 / 2;
+  printint(z)
+
+end

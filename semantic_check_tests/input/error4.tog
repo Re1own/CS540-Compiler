@@ -1,0 +1,8 @@
+let
+  function dummy(): void := 
+    printstring("I do nothing!\n")
+  end
+in
+  printint(440);
+end        
+

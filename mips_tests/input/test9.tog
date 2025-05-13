@@ -1,0 +1,11 @@
+let
+  var i:int
+  var p:int
+in
+  p :=1 ;
+  for i:=1 to 5 do
+     p := p*i
+  end;
+  printint(p)
+end
+  

@@ -1,0 +1,22 @@
+let
+  var x: int
+
+  function f(x:int) :void = 
+    printint(x+20);
+    printstring("Done")
+  end
+
+  var y : int
+
+  function 
+       g(y:int): int = 
+    return y - 1
+  end
+
+in
+
+x := getint();
+  y := 20;
+  f(g(x + y))
+end
+//end of the program

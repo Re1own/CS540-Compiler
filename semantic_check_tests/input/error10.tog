@@ -1,0 +1,17 @@
+let
+  var x: int
+
+  function f(x:int) :void = 
+    printint(x+20);
+    printstring("Done")
+  end
+
+  function g(z:int): int = 
+    return y - 1 //ERROR: y not declared
+  end
+
+in
+  x := getint();
+  f(g(x))
+end
+//end of the program

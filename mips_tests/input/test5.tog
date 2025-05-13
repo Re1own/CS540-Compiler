@@ -1,0 +1,6 @@
+let
+  var x:int
+in
+  x := 5*8 - 3*2;
+  printint(x)
+end

@@ -1,0 +1,12 @@
+let 
+  function fact(n:int) : int =
+    if (n<="abc") then //EORROR: compare int with string
+        return 1
+    else
+        return n*fact(n-1)
+    end
+  end
+in
+  printint(fact(4))
+end
+

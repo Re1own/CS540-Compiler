@@ -1,0 +1,12 @@
+let
+   var x:int
+in
+  printstring("enter an integer: ");
+  x := getint();
+  if (x>3) then
+    printstring(">3")
+  else
+    printstring("<=3")
+  end
+end
+    

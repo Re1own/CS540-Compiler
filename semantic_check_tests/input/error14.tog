@@ -1,0 +1,6 @@
+let
+  var x: int    //int variable 
+in
+  x(10, 20)   //ERROR:x is not a function
+end
+

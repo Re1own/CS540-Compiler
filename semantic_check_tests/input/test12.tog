@@ -1,0 +1,14 @@
+let
+  var x:int
+  var s:string
+  function set(): void = 
+      x := getint();
+      s := "hello"
+  end
+
+in
+  set();
+  printstring(s);
+  printint(x)
+end
+

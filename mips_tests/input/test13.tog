@@ -1,0 +1,8 @@
+let
+  function f(x:int): int=
+    return x+40
+  end
+in
+  printint(f(200)+200)
+end
+

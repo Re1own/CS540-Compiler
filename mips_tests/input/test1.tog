@@ -1,0 +1,5 @@
+let
+  //no declarations
+in
+  printstring("Hello World!\n")
+end

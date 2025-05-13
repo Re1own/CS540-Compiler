@@ -1,0 +1,12 @@
+let
+  function get10(): int=
+    let
+        var x:int
+    in
+        x := 10;
+        return x
+  end
+in
+  printint(get10())
+end
+

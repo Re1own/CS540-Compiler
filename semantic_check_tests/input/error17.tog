@@ -1,0 +1,15 @@
+let
+  var x: int
+  var y: int
+  var z: string
+
+in
+  printstring("Give me an integer: ");
+  x := getint();
+  y := x * x;
+  z := "hello";
+  x := (x + z); //ERROR: string operand in addition  
+  printint(x);
+  printstring("this is a string with escaped \" ")
+
+end

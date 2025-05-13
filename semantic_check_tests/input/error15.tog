@@ -1,0 +1,7 @@
+let
+    var i:string
+in
+  i := getint();
+  printstring(i)
+end
+  
