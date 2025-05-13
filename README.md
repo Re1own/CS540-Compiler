@@ -184,9 +184,15 @@ Common **instructions**:
 
 ---
 
-### 3.1 Example Usage
+## 3. Example Usage for MIPS running
 
-there are 17 tests(test0-16), you can run:
+Make compiler
+
+```
+make
+```
+
+There are 17 tests(test0-16), you can run this command to test:
 
  ```bash
 ./test.sh test1
