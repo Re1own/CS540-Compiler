@@ -192,7 +192,17 @@ Make compiler
 make
 ```
 
-There are 17 tests(test0-16), you can run this command to test:
+There are 17 tests(test0-16), you can run this command to test. Here is an example for test1:
+
+```
+let
+  //no declarations
+in
+  printstring("Hello World!\n")
+end
+```
+
+Run the test1
 
  ```bash
 ./test.sh test1
@@ -219,4 +229,3 @@ Hello World!
 
 Done.
 ```
-
